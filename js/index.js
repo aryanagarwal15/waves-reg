@@ -1,118 +1,118 @@
-$('.email').on("change keyup paste",
+$i('.email').on("change keyup paste",
   function(){
-    if($(this).val()){
-      $('.icon-paper-plane').addClass("next");
+    if($i(this).val()){
+      $i('.icon-paper-plane').addClass("next");
     } else {
-      $('.icon-paper-plane').removeClass("next");
+      $i('.icon-paper-plane').removeClass("next");
     }
   }
 );
 
-$('.next-button').hover(
+$i('.next-button').hover(
   function(){
-    $(this).css('cursor', 'pointer');
+    $i(this).css('cursor', 'pointer');
   }
 );
 
-$('.next-button.email').click(
+$i('.next-button.email').click(
   function(){
     console.log("Next Button Pressed");
-    $('.email-section').addClass("fold-up");
-    $('.name-section').removeClass("folded");
+    $i('.email-section').addClass("fold-up");
+    $i('.name-section').removeClass("folded");
   }
 );
 
-$('.name').on("change keyup paste",
+$i('.name').on("change keyup paste",
   function(){
-    if($(this).val()){
-      $('.icon-user').addClass("next");
+    if($i(this).val()){
+      $i('.icon-user').addClass("next");
     } else {
-      $('.icon-user').removeClass("next");
+      $i('.icon-user').removeClass("next");
     }
   }
 );
 
-$('.next-button').hover(
+$i('.next-button').hover(
   function(){
-    $(this).css('cursor', 'pointer');
+    $i(this).css('cursor', 'pointer');
   }
 );
 
-$('.next-button.name').click(
+$i('.next-button.name').click(
   function(){
     console.log("Next Button Pressed");
-    $('.name-section').addClass("fold-up");
-    $('.college-section').removeClass("folded");
+    $i('.name-section').addClass("fold-up");
+    $i('.college-section').removeClass("folded");
   }
 );
 
-$('.college').on("change keyup paste",
+$i('.college').on("change keyup paste",
   function(){
-    if($(this).val()){
-      $('.icon-building').addClass("next");
+    if($i(this).val()){
+      $i('.icon-building').addClass("next");
     } else {
-      $('.icon-building').removeClass("next");
+      $i('.icon-building').removeClass("next");
     }
   }
 );
 
-$('.next-button').hover(
+$i('.next-button').hover(
   function(){
-    $(this).css('cursor', 'pointer');
+    $i(this).css('cursor', 'pointer');
   }
 );
 
-$('.next-button.college').click(
+$i('.next-button.college').click(
   function(){
     console.log("Next Button Pressed");
-    $('.college-section').addClass("fold-up");
-    $('.number-section').removeClass("folded");
+    $i('.college-section').addClass("fold-up");
+    $i('.number-section').removeClass("folded");
   }
 );
 
-$('.number').on("change keyup paste",
+$i('.number').on("change keyup paste",
   function(){
-    if($(this).val()){
-      $('.icon-mobile-phone').addClass("next");
+    if($i(this).val()){
+      $i('.icon-mobile-phone').addClass("next");
     } else {
-      $('.icon-mobile-phone').removeClass("next");
+      $i('.icon-mobile-phone').removeClass("next");
     }
   }
 );
 
-$('.next-button').hover(
+$i('.next-button').hover(
   function(){
-    $(this).css('cursor', 'pointer');
+    $i(this).css('cursor', 'pointer');
   }
 );
 
-$('.next-button.number').click(
+$i('.next-button.number').click(
   function(){
     console.log("Next Button Pressed");
-    $('.number-section').addClass("fold-up");
-    $('.events-section').removeClass("folded");
+    $i('.number-section').addClass("fold-up");
+    $i('.events-section').removeClass("folded");
   }
 );
-$('.events').on("change keyup paste",
+$i('.events').on("change keyup paste",
   function(){
-    if($(this).val()){
-      $('.icon-trophy').addClass("next");
+    if($i(this).val()){
+      $i('.icon-trophy').addClass("next");
     } else {
-      $('.icon-trophy').removeClass("next");
+      $i('.icon-trophy').removeClass("next");
     }
   }
 );
 
-$('.next-button').hover(
+$i('.next-button').hover(
   function(){
-    $(this).css('cursor', 'pointer');
+    $i(this).css('cursor', 'pointer');
   }
 );
 
-$('.next-button.number').click(
+$i('.next-button.number').click(
   function(){
     console.log("Next Button Pressed");
-    $('.events-section').addClass("fold-up");
-    $('.success').css("marginTop", 0);
+    $i('.events-section').addClass("fold-up");
+    $i('.success').css("marginTop", 0);
   }
 );
