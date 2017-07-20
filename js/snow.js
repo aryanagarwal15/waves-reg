@@ -5,12 +5,12 @@ window.onload = function(){
 	
 	//canvas dimensions
 	var W = window.innerWidth;
-	var H = window.innerHeight;
+	var H = window.innerHeight-450;
 	canvas.width = W;
 	canvas.height = H;
 	
 	//snowflake particles
-	var mp = 585; //max particles
+	var mp = 500; //max particles
 	var particles = [];
 	for(var i = 0; i < mp; i++)
 	{
