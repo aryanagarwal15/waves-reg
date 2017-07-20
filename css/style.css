@@ -212,7 +212,13 @@ canvas {
   overflow: scroll;
   z-index: 2
 }
-
+.logo img{
+  position: absolute;
+  left: 35%;
+  top:21px;
+  width: 30%;
+  right: 35%;
+}
 
 .fire {
   width: 100%;
@@ -230,5 +236,10 @@ canvas {
 }
 .registration-form form input {
   font-size: 80%
+}
+.logo img{
+  width:60%;
+  left: 20%;
+  right: 20%;
 }
 }
