@@ -109,10 +109,13 @@ $i('.next-button').hover(
   }
 );
 
-$i('.next-button.number').click(
+$i('.next-button.events').click(
   function(){
     console.log("Next Button Pressed");
     $i('.events-section').addClass("fold-up");
     $i('.success').css("marginTop", 0);
   }
 );
+$i("#waves-reg").submit(function(e) {
+    e.preventDefault();
+});

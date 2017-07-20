@@ -227,6 +227,19 @@ canvas {
   position: fixed;  
   bottom: 0;
 }
+.designer {
+  position: fixed;
+  z-index: 10000;
+  bottom: 0;
+  margin: 0 auto;
+  color: white;
+  width: 800px;
+  left: 40%;
+  
+}
+.designer a{
+  color: white;
+}
 @media(max-width:600px){
 .registration-form {
   width: 80%;
@@ -241,5 +254,8 @@ canvas {
   width:60%;
   left: 20%;
   right: 20%;
+}
+.designer {
+  left:16%;
 }
 }
