@@ -119,3 +119,4 @@ $i('.next-button.events').click(
 $i("#waves-reg").submit(function(e) {
     e.preventDefault();
 });
+

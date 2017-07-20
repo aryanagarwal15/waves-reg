@@ -37,6 +37,15 @@
   });
     -->
     </script>
+    <script type="text/javascript">
+      email.addEventListener("input", function (event) {
+  if (email.validity.typeMismatch) {
+    email.setCustomValidity("Please refresh the page and enter correct email format");
+  } else {
+    email.setCustomValidity("");
+  }
+});
+    </script>
 </head>
 
 <body>
@@ -59,9 +68,9 @@
     <h1>Register For Waves</h1>
     <p>Fill in all informations</p>
   </header>
-  <form>
+  <form id="waves-reg">
     <div class="input-section email-section">
-      <input class="email" type="email" placeholder="ENTER YOUR E-MAIL HERE" autocomplete="off"/>
+      <input class="email" type="text" placeholder="ENTER YOUR E-MAIL HERE" autocomplete="off"/>
       <div class="animated-button"><span class="icon-paper-plane"><i class="fa fa-envelope-o"></i></span><span class="next-button email"><i class="fa fa-arrow-up"></i></span></div>
     </div>
     <div class="input-section name-section folded">
@@ -78,7 +87,7 @@
     </div>
     <div class="input-section events-section folded">
       <input class="events" type="text" placeholder="EVENTS YOU WISH TO JOIN" autocomplete="off"/>
-      <div class="animated-button"><span class="icon-trophy"><i class="fa fa-trophy"></i></span><span class="next-button events"><button type="submit" id="completed-task"><i class="fa fa-arrow-up"></i></button></span></div>
+      <div class="animated-button"><span class="icon-trophy"><i class="fa fa-trophy"></i></span><button type="submit" class="next-button events" style="font-weight: 100; font-size:25px;    line-height: 75px"><i class="fa fa-arrow-up"></i></button></div>
     </div>
     <!--<div class="input-section password-section folded">
       <input class="password" type="password" placeholder="ENTER YOUR PASSWORD HERE"/>
