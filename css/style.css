@@ -20,13 +20,14 @@ body {
           transform: translate(-50%, 0%);
   top: 40%;
   background: transparent;
+  z-index: 100
 }
 .registration-form header {
   position: relative;
   z-index: 4;
   background: white;
-  padding: 20px 40px;
-  border-radius: 15px 15px 0 0;
+  padding: 20px ;
+  border-radius: 4px 4px 0 0;
 }
 .registration-form header h1 {
   font-weight: 900;
@@ -101,6 +102,7 @@ body {
   border: 0;
   padding: 20px 40px;
   margin: 0;
+
 }
 .registration-form form input:focus {
   outline: none;
@@ -208,13 +210,25 @@ canvas {
   height: 400px;
   width: 100%;
   overflow: scroll;
+  z-index: 2
 }
 
 
 .fire {
   width: 100%;
   height:300px;
-  
+  z-index: 1;
   position: fixed;  
   bottom: 0;
+}
+@media(max-width:600px){
+.registration-form {
+  width: 80%;
+}
+.registration-form header h1 {
+  font-size: 20px;
+}
+.registration-form form input {
+  font-size: 80%
+}
 }
